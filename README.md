@@ -1,1 +1,1 @@
-# slack-portfolio
+This is the very first HNG projct. in this project, i built a very simple portfolio using html css and a very limited js. I used the data-testId to grab the dom elements and have it display the current date and time
