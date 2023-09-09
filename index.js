@@ -5,7 +5,7 @@ function updateDayAndTime(){
     const now = new Date();
     const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     const dayOfWeek = daysOfWeek[now.getDay()];
-    const time = now.toLocaleTimeString();
+    const time = now.getTime();
 
     dayOfWeekElement.textContent = `Today is ${dayOfWeek}`;
     currentTimeElement.textContent = `Current time is ${time}`
